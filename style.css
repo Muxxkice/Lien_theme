@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/* Theme Name: lien
+Author: mao
+Description: オリジナルテーマです
+Version: 1.2 */
+/*imgの下に隙間作らない*/
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+header {
+  height: 30px;
+  background-color: pink;
+}
+body {
+  margin: 0 auto;
+  background-color: #f5efe2;
+  font: sans-serif;
+}
+.mycontainer {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.mv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  background-image: url(img/cake_mv.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: plum;
+}
+.gnav a {
+  color: #fff;
+}
+nav {
+  display: flex;
+}
+li {
+  font-size: 20px;
+  list-style: none;
+  border: 2px red;
+}
+.nav-links {
+  display: flex;
+  margin: 30px 0;
+  /* font-size ; */
+}
+.nav-previous {
+  flex: 1;
+}
+.nav-next {
+  flex:1;
+  margin-left: 10px;
+  text-align: right;
+}
+a {
+  text-decoration: none;
+  padding: 5px;
+}
+
+li p {
+  margin: 0;
+}
+a:hover {
+  opacity: 0.7;
+  /* background-color: violet; */
+}
+.about {
+  height: 800px;
+  margin-top: 30px;
+}
+.about_pic img {
+  width: 480px;
+}
+
+.about_content {
+  width: 480px;
+}
+.post-categories {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+.myposthead {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+footer {
+  background-color: pink;
+  height: 200px;
+}
+.subnav a {
+  color: #fff;
+}
+.subnav ul {
+  padding-top: 20px;
+}
+/* 問い合わせフォーム */
